@@ -1,0 +1,147 @@
+body {
+    background-color: #141519;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Overpass', sans-serif;
+    margin: 20px;
+}
+
+
+.card,
+.card-two {
+    display: none;
+    flex-direction: column;
+    width: 210px;
+    height: 205px;
+    padding: 19px;
+    border-radius: 15px;
+    background-color: #212832;
+    color: white;
+}
+
+.card-two {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ativo {
+    display: flex;
+}
+
+.icone-estrela {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 12px;
+    height: 12px;
+    border-radius: 40px;
+    background-color: #282F39
+}
+
+.icone {
+    width: 11px;
+    height: 11px;
+}
+
+h2.titulo-card {
+    margin-top: 16px;
+    font-size: 16px;
+}
+
+
+p.paragrafo {
+    margin-top: 10px;
+    font-size: 9px;
+    line-height: 13px;
+    color: hsl(217, 12%, 63%);
+}
+
+
+p.paragrafo.new {
+    width: 205px;
+}
+
+.avaliacao {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    background-color: #282F39;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 12px;
+    color: hsl(217, 12%, 63%);
+    border: none;
+}
+
+.avaliacao>.botao.selected {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.botao:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+    cursor: pointer;
+}
+
+.submit-button {
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 11px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    border: none;
+    height: 24px;
+    width: 100%;
+}
+
+.submit-button:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+
+svg.imagem-card-two {
+    margin-top: 10px;
+    align-self: center;
+    margin-bottom: 10px;
+    width: 120px;
+    height: 60px;
+}
+
+#numero-selecionado {
+    align-self: center;
+    border-radius: 20px;
+    padding: 4px 14px 2px 14px;
+    background-color: #282F39;
+    color: #FC7614;
+    font-size: 9px;
+}
+
+.attribution {
+    margin-top: 20px;
+    font-size: 11px;
+    color: #fff;
+    text-align: center;
+}
+
+.attribution a {
+    color: hwb(228 24% 36%);
+}
